@@ -11,4 +11,6 @@ requires 'Signal::Mask';
 test_requires 'Test::Requires';
 test_requires 'Test::SharedFork';
 
+repository 'https://github.com/kazuho/p5-parallel-prefork';
+
 WriteAll;
